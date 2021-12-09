@@ -18,7 +18,6 @@ function App() {
       />
       <Button
       bpm={bpm}
-      setBPM={setBPM}
       />
     </div>
   );

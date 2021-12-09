@@ -17,10 +17,11 @@ const Button = ({bpm}) => {
         useEffect(() => {
         let interval;
         if(playing){
+            play();
             interval = setInterval(play, (60 / bpm) * 1000)
         }    
 
-        return() => clearInterval(interval)
+        return () => clearInterval(interval)
 
     },[playing, bpm])
 
