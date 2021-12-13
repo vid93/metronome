@@ -24,15 +24,15 @@ range line, clicking on the "Start" button will start the application, clicking 
 
 ## Get a local copy
 
-### 'git clone'
+### `git clone`
 
 Use https://github.com/vid93/metronome.git
 
-### 'npm install' 
+### `npm install` 
 
 Install NPM packages
 
-### 'npm start'
+### `npm start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
