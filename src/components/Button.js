@@ -29,7 +29,7 @@ const Button = ({bpm}) => {
     },[bpm, playing])
 
     return(
-        <button onClick={() => change()}>{!playing ? "Start" : "Stop"}</button>
+        <button onClick={() => change()}>{!playing ? "Play" : "Pause"}</button>
     )
 }
 
